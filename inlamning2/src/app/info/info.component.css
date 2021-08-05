@@ -1,0 +1,82 @@
+html,
+body,
+header,
+.view {
+  min-height: 100vh !important;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+
+h1{
+  letter-spacing: 8px;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+h5{
+  margin-bottom: 0px;
+  
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.divider{
+  border-top: 3px solid white;
+  width: 170px;
+  margin: auto;
+}
+
+.cv-btn{
+  color:white;
+  border-radius: 3px;
+  border: 2px solid white;
+  padding: 8px 20px 8px 20px;
+  background-color: transparent;
+}
+
+.cv-btn:hover{
+  box-shadow: 1px 1px 8px 2px;
+}
+
+
+.text-background{
+  padding: 20px 100px 30px 100px;
+  position: relative;
+}
+
+.text-background::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(92, 92, 92, 0.432);
+}
+
+.text-holder{
+  color: #FFF;
+  position: relative;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
